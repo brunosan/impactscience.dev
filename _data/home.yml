@@ -1,103 +1,68 @@
 intro:
-  lead-in: "Welcome To Our Studio!"
-  heading: It's Nice To Meet You
+  lead-in: "Welcome To Our Impact Science Studio"
+  heading: ""
   btn: Tell Me More
 
 services:
   heading: Services
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  subheading: ""
   service:
-    - icon: fa fa-shopping-cart
-      heading: E-Commerce
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-laptop
-      heading: Responsive Design
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-lock
-      heading: Web Security
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - icon: fa fa-space-shuttle
+      heading: Advisory / Consulting
+      text: Go beyond data, unlock the science of getting to radical breakthroughs. We offer both on site and remote services. It's not about the data, it's what you do with it.
+    - icon: fa fa-rocket
+      heading: Workshops / Talks
+      text: The best way to scale Impact Science is to create more impact scientists. We offer workshops, classes, and talks to introduce the framework and upskill the potential of your students or coworkers.
+    - icon: fa fa-book
+      heading: Our Book
+      text: Our framework of "Impact Science" is avaiable as a <a href="//book.impactscience.dev">free book</a> and on <a href="https://www.amazon.com/gp/product/B07SN1L4L2/ref=dbs_a_def_rwt_bibl_vppi_i1">Amazon</a>, both paperback and Kindle Unlimited.
 
 portfolio:
   heading: Portfolio
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  subheading: Some project we have done.
 
-about:
-  heading: About
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  timeline:
-    - image: img/about/1.jpg
-      date: 2009-2011
-      title: Our Humble Beginnings
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/2.jpg
-      date: March 2011
-      title: An Agency is Born
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/3.jpg
-      date: December 2012
-      title: Transition to Full Service
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/4.jpg
-      date: July 2014
-      title: Phase Two Expansion
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
 
-  end1: Be Part
-  end2: Of Our
-  end3: Story!
 
 team:
-  heading: Our Amazing Team
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: Leadership
+  subheading:
   members:
-    - name: Kay Garland
-      role: Lead Designer
-      img: img/team/1.jpg
+    - name: Bruno Sánchez-Andrade Nuño
+      role: Founder
+      img: img/team/bruno.jpg
       social-buttons:
         - icon: fa fa-twitter
-          url: "#" 
+          url: "https://twitter.com/brunosan"
         - icon: fa fa-facebook
-          url: "#"
+          url: "https://www.facebook.com/brunosan.eu"
         - icon: fa fa-linkedin
-          url: "#"
-        
-    - name: Larry Parker
-      role: Lead Marketer
-      img: img/team/2.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
-
-    - name: Diana Pertersen
-      role: Lead Developer
-      img: img/team/3.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
-
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+          url: "https://www.linkedin.com/in/nasonurb"
+  text: ""
 
 clients:
-  - img: img/logos/envato.jpg
-    url: "#"
-  - img: img/logos/designmodo.jpg
-    url: "#"
-  - img: img/logos/themeforest.jpg
-    url: "#"
-  - img: img/logos/creative-market.jpg   
-    url: "#"
+  heading: Clients
+  subheading: ""
+  list:
+    - img: img/logos/NewFCSA.png
+      url: "http://fcsa.gov.ae/en-us/Pages/About-Us/About-FCSA.aspx"
+    - img: img/logos/inmarsat.png
+      url: "https://www.inmarsat.com/about-us/what-we-do/digital-frontiers/"
+    - img: img/logos/natgeo.jpg
+      url: "https://www.nationalgeographic.org/projects/labs/"
+    - img: img/logos/World-Bank-Logo-2.jpg
+      url: "https://www.worldbank.org/en/topic"
+    - img: img/logos/mapbox_logo.png
+      url: "https://www.worldbank.org/en/topic"
+    - img: img/logos/satellogic.png
+      url: "https://satellogic.com/"
+    - img: img/logos/mhv.png
+      url: "https://www.mountainhazelnuts.com/"
+    - img: img/logos/swisscontact.jpeg
+      url: "https://www.swisscontact.org/nc/en/projects-and-countries/search-projects/project-finder/project/-/show/swiss-entrepreneurship-program.html"
 
 contact:
   heading: Contact Us
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  subheading: ""
   name: Your Name *
   name-required: Please enter your name.
   email: Your Email *

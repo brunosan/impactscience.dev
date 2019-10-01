@@ -12,10 +12,33 @@ layout: default
         <div class="intro-text">
           <div class="intro-lead-in">{{ site.data.home.intro.lead-in }}</div>
           <div class="intro-heading text-uppercase">{{ site.data.home.intro.heading }}</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">{{ site.data.home.intro.btn }}</a>
+          <a class="btn btn-xl text-uppercase js-scroll-trigger colorfade" href="#services">{{ site.data.home.intro.btn }}</a>
         </div>
       </div>
     </header>
+
+    <!-- Clients -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.home.clients.heading }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.data.home.clients.subheading }}</h3>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          {%- for client in site.data.home.clients.list -%}
+          {% assign ws = '' %}
+          <div class="col-md-3 col-sm-6">
+            <a href="{{ client.url }}">
+              <img class="img-fluid d-block mx-auto client-img" src="{{ assets_path }}{{ client.img }}" alt="">
+            </a>
+          </div>
+          {%-  endfor -%}
+        {% assign ws = '' %}
+        </div>
+      </div>
+    </section>
 
     <!-- Services -->
     <section id="services">
@@ -75,51 +98,10 @@ layout: default
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.about.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.about.subheading  }}</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              {%- for time in site.data.home.about.timeline -%}
-              {% assign ws = '' %}
-              <li{% cycle '', ' class="timeline-inverted"' %}>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="{{ assets_path }}{{ time.image }}" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>{{ time.date }}</h4>
-                    <h4 class="subheading">{{ time.title }}</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">{{ time.text  }}</p>
-                  </div>
-                </div>
-              </li>
-              {%- endfor -%}
-              {% assign ws = '' %}
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>{{ site.data.home.about.end1 }}
-                    <br>{{ site.data.home.about.end2 }}
-                    <br>{{ site.data.home.about.end3 }}</h4>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Team -->
-    <section class="bg-light" id="team">
+  </hr>
+    <section class="bg-light" id="leadership">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -127,10 +109,10 @@ layout: default
             <h3 class="section-subheading text-muted">{{ site.data.home.team.subheading }}</h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           {%- for member in site.data.home.team.members -%}
           {% assign ws = '' %}
-          <div class="col-sm-4">
+          <div class="col-sm-6">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
               <h4>{{ member.name }}</h4>
@@ -159,22 +141,7 @@ layout: default
       </div>
     </section>
 
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          {%- for client in site.data.home.clients -%}
-          {% assign ws = '' %}
-          <div class="col-md-3 col-sm-6">
-            <a href="{{ client.url }}">
-              <img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ client.img }}" alt="">
-            </a>
-          </div>
-          {%-  endfor -%}
-        {% assign ws = '' %}
-        </div>
-      </div>
-    </section>
+
 
     <!-- Contact -->
     <section id="contact">
@@ -188,22 +155,8 @@ layout: default
         <div class="row">
           <div class="col-lg-12">
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="{{ site.data.home.contact.name }}" required="required" data-validation-required-message="{{ site.data.home.contact.name-required }}">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="{{ site.data.home.contact.email }}" required="required" data-validation-required-message="{{ site.data.home.contact.email-required }}">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="{{ site.data.home.contact.phone }}" required="required" data-validation-required-message="{{ site.data.home.contact.phone-required }}">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
+              <div class="row justify-content-center text-center">
+                <div class="col-md-6 ">
                   <div class="form-group">
                     <textarea class="form-control" id="message" placeholder="{{ site.data.home.contact.message }}" required="required" data-validation-required-message="{{ site.data.home.contact.message-required }}"></textarea>
                     <p class="help-block text-danger"></p>
@@ -212,7 +165,7 @@ layout: default
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">{{ site.data.home.contact.btn }}</button>
+                  <button id="sendMessageButton" onclick=sendEmail() class="btn btn-primary btn-xl text-uppercase" type="submit">{{ site.data.home.contact.btn }}</button>
                 </div>
               </div>
             </form>
@@ -220,3 +173,10 @@ layout: default
         </div>
       </div>
     </section>
+
+    <script>
+function sendEmail() {
+   message = document.getElementById('message').value;
+   window.open('mailto:impactscience.dev@brunosan.eu?subject=Contact%20from%20impactscience.dev&body='+escape(message));
+}
+</script>

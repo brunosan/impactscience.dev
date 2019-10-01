@@ -1,5 +1,5 @@
 brand:
-  name: Start Bootstrap
+  name: Impact Science .dev
 menu-string: Menu
 
 nav:
@@ -7,27 +7,19 @@ nav:
     url: '#services'
   - title: Portfolio
     url: '#portfolio'
-  - title: About
-    url: '#about'
-  - title: Team
-    url: '#team'
+  - title: Leadership
+    url: '#leadership'
   - title: Contact
     url: '#contact'
 
-copyright: Copyright &copy; Your Website 2018
+copyright: Copyright &copy; Impact Science 2019
 
 social-buttons:
-  - icon: fa fa-twitter
-    url: '#' 
-  - icon: fa fa-facebook
-    url: '#'
   - icon: fa fa-linkedin
-    url: '#'
+    url: "https://www.linkedin.com/company/28375014/admin/"
 
 quicklinks:
-  - title: Privacy Policy
-    url: '#'
-  - title: Terms of Use
+  - title: ""
     url: '#'
 
 modal:

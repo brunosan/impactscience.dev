@@ -1,11 +1,11 @@
-title: Agency - Start Bootstrap Theme
+title: Impact Science .dev
 description: ''
-author: ''
+author: 'Bruno Sánchez-Andrade Nuño'
 
 sass:
   style: compressed
 
-assets_path: '' 
+assets_path: ''
 
 collections:
   projects:
