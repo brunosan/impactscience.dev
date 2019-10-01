@@ -1,0 +1,11 @@
+title: Impact Science .dev
+description: ''
+author: 'Bruno Sánchez-Andrade Nuño'
+
+sass:
+  style: compressed
+
+assets_path: ''
+
+collections:
+  projects:

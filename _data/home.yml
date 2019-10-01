@@ -1,0 +1,79 @@
+intro:
+  lead-in: "Welcome To Our Impact Science Studio"
+  heading: ""
+  btn: Tell Me More
+
+services:
+  heading: Services
+  subheading: ""
+  service:
+    - icon: fa fa-space-shuttle
+      heading: Advisory / Consulting
+      text: Go beyond data, unlock the science of getting to radical breakthroughs. We offer both on site and remote services. It's not about the data, it's what you do with it.
+    - icon: fa fa-rocket
+      heading: Workshops / Talks
+      text: The best way to scale Impact Science is to create more impact scientists. We offer workshops, classes, and talks to introduce the framework and upskill the potential of your students or coworkers.
+    - icon: fa fa-book
+      heading: Our Book
+      text: Our framework of "Impact Science" is avaiable as a <a href="//book.impactscience.dev">free book</a> and on <a href="https://www.amazon.com/gp/product/B07SN1L4L2/ref=dbs_a_def_rwt_bibl_vppi_i1">Amazon</a>, both paperback and Kindle Unlimited.
+
+portfolio:
+  heading: Portfolio
+  subheading: Some project we have done.
+
+
+
+team:
+  heading: Leadership
+  subheading:
+  members:
+    - name: Bruno Sánchez-Andrade Nuño
+      role: Founder
+      img: img/team/bruno.jpg
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "https://twitter.com/brunosan"
+        - icon: fa fa-facebook
+          url: "https://www.facebook.com/brunosan.eu"
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/nasonurb"
+  text: ""
+
+clients:
+  heading: Clients
+  subheading: ""
+  list:
+    - img: img/logos/NewFCSA.png
+      url: "http://fcsa.gov.ae/en-us/Pages/About-Us/About-FCSA.aspx"
+    - img: img/logos/inmarsat.png
+      url: "https://www.inmarsat.com/about-us/what-we-do/digital-frontiers/"
+    - img: img/logos/natgeo.jpg
+      url: "https://www.nationalgeographic.org/projects/labs/"
+    - img: img/logos/World-Bank-Logo-2.jpg
+      url: "https://www.worldbank.org/en/topic"
+    - img: img/logos/mapbox_logo.png
+      url: "https://www.worldbank.org/en/topic"
+    - img: img/logos/satellogic.png
+      url: "https://satellogic.com/"
+    - img: img/logos/mhv.png
+      url: "https://www.mountainhazelnuts.com/"
+    - img: img/logos/swisscontact.jpeg
+      url: "https://www.swisscontact.org/nc/en/projects-and-countries/search-projects/project-finder/project/-/show/swiss-entrepreneurship-program.html"
+
+contact:
+  heading: Contact Us
+  subheading: ""
+  name: Your Name *
+  name-required: Please enter your name.
+  email: Your Email *
+  email-required: Please enter your email address.
+  phone: Your Phone *
+  phone-required: Please enter your phone number.
+  message: Your Message *
+  message-required: Please enter a message.
+  btn: Send Message
+
+  js-url: '././mail/contact_me.php'
+  js-success: 'Your message has been sent. '
+  js-error: 'Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!'
+  js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'

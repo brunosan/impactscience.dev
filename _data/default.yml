@@ -1,0 +1,30 @@
+brand:
+  name: Impact Science .dev
+menu-string: Menu
+
+nav:
+  - title: Services
+    url: '#services'
+  - title: Portfolio
+    url: '#portfolio'
+  - title: Leadership
+    url: '#leadership'
+  - title: Contact
+    url: '#contact'
+
+copyright: Copyright &copy; Impact Science 2019
+
+social-buttons:
+  - icon: fa fa-linkedin
+    url: "https://www.linkedin.com/company/28375014/admin/"
+
+quicklinks:
+  - title: ""
+    url: '#'
+
+modal:
+  date-string: 'Date: '
+  client-string: 'Client: '
+  category-string: 'Category: '
+  close-icon: 'fa fa-times'
+  close-string: 'Close Project'
