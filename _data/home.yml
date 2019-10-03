@@ -15,11 +15,11 @@ services:
       text: The best way to scale Impact Science is to create more impact scientists. We offer workshops, classes, and talks to introduce the framework and upskill the potential of your students or coworkers.
     - icon: fa fa-book
       heading: Our Book
-      text: Our framework of "Impact Science" is avaiable as a <a href="//book.impactscience.dev">free book</a> and on <a href="https://www.amazon.com/gp/product/B07SN1L4L2/ref=dbs_a_def_rwt_bibl_vppi_i1">Amazon</a>, both paperback and Kindle Unlimited.
+      text: Our framework of "Impact Science" is available as a <a href="//book.impactscience.dev">free book</a> and on <a href="https://www.amazon.com/gp/product/B07SN1L4L2/ref=dbs_a_def_rwt_bibl_vppi_i1">Amazon</a>, both paperback and Kindle Unlimited.
 
 portfolio:
   heading: Portfolio
-  subheading: Some project we have done.
+  subheading: Some projects we have done.
 
 
 
