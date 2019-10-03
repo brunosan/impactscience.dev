@@ -11,7 +11,7 @@ services:
       heading: Advisory / Consulting
       text: Go beyond data, unlock the science of getting to radical breakthroughs. We offer both on site and remote services. It's not about the data, it's what you do with it.
     - icon: fa fa-rocket
-      heading: Workshops / Talks
+      heading: Workshops / Lectures
       text: The best way to scale Impact Science is to create more impact scientists. We offer workshops, classes, and talks to introduce the framework and upskill the potential of your students or coworkers.
     - icon: fa fa-book
       heading: Our Book
