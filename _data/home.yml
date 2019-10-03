@@ -28,7 +28,7 @@ team:
   subheading:
   members:
     - name: Bruno Sánchez-Andrade Nuño
-      role: Founder
+      role: Founder <a href="https://cv.brunosan.eu/">[CV]</a>
       img: img/team/bruno.jpg
       social-buttons:
         - icon: fa fa-twitter
