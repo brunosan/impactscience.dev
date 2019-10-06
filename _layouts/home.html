@@ -29,7 +29,7 @@ layout: default
         <div class="row align-items-center">
           {%- for client in site.data.home.clients.list -%}
           {% assign ws = '' %}
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-6">
             <a href="{{ client.url }}">
               <img class="img-fluid d-block mx-auto client-img" src="{{ assets_path }}{{ client.img }}" alt="">
             </a>
