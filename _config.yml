@@ -2,6 +2,7 @@ title: Impact Science .dev
 description: ''
 author: 'Bruno Sánchez-Andrade Nuño'
 url: https://impactscience.dev/
+theme: jekyll-theme-startbootstrap-agency
 sass:
   style: compressed
 
