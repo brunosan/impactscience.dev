@@ -3,6 +3,7 @@ description: ''
 author: 'Bruno Sánchez-Andrade Nuño'
 url: https://impactscience.dev/
 theme: jekyll-theme-startbootstrap-agency
+destination: ./build
 sass:
   style: compressed
 
