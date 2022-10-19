@@ -5,8 +5,6 @@ menu-string: Menu
 nav:
   - title: Services
     url: '#services'
-  - title: Portfolio
-    url: '#portfolio'
   - title: Leadership
     url: '#leadership'
   - title: Contact

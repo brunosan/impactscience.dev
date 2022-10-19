@@ -17,10 +17,6 @@ services:
       heading: Our Book
       text: Our framework of "Impact Science" is available as a <a href="//book.impactscience.dev">free book</a> and on <a href="https://www.amazon.com/gp/product/B07SN1L4L2/ref=dbs_a_def_rwt_bibl_vppi_i1">Amazon</a>, both paperback and Kindle Unlimited.
 
-portfolio:
-  heading: Portfolio
-  subheading: Some projects we have done.
-
 
 
 team:
