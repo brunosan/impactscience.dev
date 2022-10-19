@@ -9,7 +9,7 @@ services:
   service:
     - icon: fa fa-space-shuttle
       heading: Advisory / Consulting
-      text: Go beyond data, unlock the science of getting to radical breakthroughs. We offer both on site and remote services. It's not about the data, it's what you do with it.
+      text: Go beyond data, unlock the science of getting to radical breakthroughs. We offer both on site and remote services. It's not about the data, it's what you do with it. 
     - icon: fa fa-rocket
       heading: Workshops / Lectures
       text: The best way to scale Impact Science is to create more impact scientists. We offer workshops, classes, and talks to introduce the framework and upskill the potential of your students or coworkers.
@@ -33,36 +33,41 @@ team:
       social-buttons:
         - icon: fa fa-twitter
           url: "https://twitter.com/brunosan"
-        - icon: fa fa-facebook
-          url: "https://www.facebook.com/brunosan.eu"
         - icon: fa fa-linkedin
           url: "https://www.linkedin.com/in/nasonurb"
   text: ""
 
 clients:
-  heading: Clients
+  heading: We've worked with
   subheading: ""
   list:
     - img: img/logos/NewFCSA.png
       url: "http://fcsa.gov.ae/en-us/Pages/About-Us/About-FCSA.aspx"
     - img: img/logos/inmarsat.png
       url: "https://www.inmarsat.com/about-us/what-we-do/digital-frontiers/"
-    - img: img/logos/natgeo.jpg
+    - img: img/logos/natgeo.png
       url: "https://www.nationalgeographic.org/projects/labs/"
     - img: img/logos/World-Bank-Logo-2.jpg
       url: "https://www.worldbank.org/en/topic"
     - img: img/logos/mapbox_logo.png
-      url: "https://www.worldbank.org/en/topic"
+      url: "https://www.mapbox.com"
     - img: img/logos/satellogic.png
       url: "https://satellogic.com/"
     - img: img/logos/mhv.png
       url: "https://www.mountainhazelnuts.com/"
     - img: img/logos/swisscontact.jpeg
       url: "https://www.swisscontact.org/nc/en/projects-and-countries/search-projects/project-finder/project/-/show/swiss-entrepreneurship-program.html"
+    - img: img/logos/Microsoft.png 
+      url: "https://planetarycomputer.microsoft.com"
+    - img: img/logos/Clarity.png 
+      url: "https://clarity.ai"
+    - img: img/logos/Leiden.png
+      url: "https://www.universiteitleiden.nl/en"
+    
 
 contact:
   heading: Contact Us
-  subheading: ""
+  subheading: "Or book time directly <a href='https://calendly.com/impact_science/paid-session'>here</a>."
   name: Your Name *
   name-required: Please enter your name.
   email: Your Email *
