@@ -260,7 +260,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 227)
   jekyll (~> 3.8)
-  jekyll-theme-startbootstrap-agency
+  jekyll-theme-startbootstrap-agency (~> 0.2.4)
   kramdown-parser-gfm
   webrick (~> 1.7)
 
