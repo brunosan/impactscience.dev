@@ -1,4 +1,4 @@
-name: Jekyll Deploy
+name: Jekyll Deploy GH
 
 on:
   push:
