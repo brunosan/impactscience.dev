@@ -59,6 +59,9 @@ clients:
       url: "https://clarity.ai"
     - img: img/logos/Leiden.png
       url: "https://www.universiteitleiden.nl/en"
+    - img: img/logos/gov-es.png
+      url: "#"
+    
     
 
 contact:
