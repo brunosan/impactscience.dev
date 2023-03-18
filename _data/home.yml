@@ -61,6 +61,10 @@ clients:
       url: "https://www.universiteitleiden.nl/en"
     - img: img/logos/gov-es.png
       url: "#"
+    - img: img/logos/jefa.png
+      url: "https://www.jefa.io"
+    - img: img/logos/Hub-ocean.png
+      url: "https://www.hubocean.earth"
     
     
 
