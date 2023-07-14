@@ -325,15 +325,50 @@
       </div>
     </div>
   </section>
+
+  <div class="modal fade" id="thankYouModal" tabindex="-1" role="dialog" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="thankYouModalLabel">Thank you!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Your message has been sent successfully.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
   <a rel="me" href="https://mastodon.social/@brunosan"></a>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-    function sendEmail() {
-      message = document.getElementById('message').value;
-      window.open('mailto:brunosan@impactscience.dev?subject=Contact%20from%20impactscience.dev&body=' + escape(message));
-    }
+  $(document).ready(function() {
+      $('form').on('submit', function(e) {
+          e.preventDefault();
+  
+          $.ajax({
+              url: $(this).attr('action'),
+              type: 'post',
+              data: $(this).serialize(),
+              success: function() {
+                  $('#thankYouModal').modal('show');
+              },
+              error: function() {
+                  alert('There was an error. Please try again.');
+              }
+          });
+      });
+  });
   </script>
-
+  
 
   <!-- Team -->
   </hr>
